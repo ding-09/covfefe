@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../../assets/home/desktop/image-hero-coffeepress.jpg';
+import HeroImg from '../../assets/home/desktop/hero.jpg';
 import { MainButton } from '../../styles/Buttons';
 
 const Hero = () => {
