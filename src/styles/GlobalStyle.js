@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
         height: 100%;
-        padding: 4rem 8rem;
+        padding: 1.5rem 8rem;
     }
     h1, 
     h2,
@@ -51,17 +51,35 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.2rem;
         line-height: 1.5rem;
         letter-spacing: 1px;
-        color: ${props => props.theme.primaryColors.grey};
+        color: ${(props) => props.theme.primaryColors.grey};
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 600;
         &:hover {
-            color: ${props => props.theme.primaryColors.darkGreyBlue};
+            color: ${(props) => props.theme.primaryColors.darkGreyBlue};
         }
     }
     img {
         display: block;
         max-width: 100%;
+    }
+    .main-button {
+        background: ${(props) => props.theme.primaryColors.darkCyan};
+        color: ${(props) => props.theme.primaryColors.lightCream};
+        font-size: 1.8rem;
+        font-family: 'Crimson Text', serif;
+        line-height: 2.5rem;
+        font-weight: 900;
+        width: 21rem;
+        height: 5rem;
+        border: none;
+        border-radius: 0.6rem;
+        &:hover {
+            background: #66d2cf;
+        }
+        &:focus {
+            outline: none;
+        }
     }
 `;
 
