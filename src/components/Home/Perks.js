@@ -52,6 +52,7 @@ const StyledPerks = styled.section`
   border-radius: 1rem;
   position: relative;
   color: ${(props) => props.theme.primaryColors.lightCream};
+  margin-bottom: 28rem;
   .perks-text {
     position: absolute;
     top: 10rem;

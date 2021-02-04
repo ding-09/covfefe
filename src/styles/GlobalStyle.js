@@ -53,6 +53,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Barlow', sans-serif;
         font-size: 1.6rem;
         line-height: 2.6rem;
+        font-weight: 300;
     }
     a {
         font-family: 'Barlow', sans-serif;
