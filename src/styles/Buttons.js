@@ -20,7 +20,8 @@ const StyledMainButton = styled.button`
   height: 5rem;
   border: none;
   border-radius: 0.6rem;
-  a {
+  a,
+  &:hover {
     color: ${(props) => props.theme.primaryColors.lightCream};
   }
   &:hover {

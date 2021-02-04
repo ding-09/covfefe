@@ -15,16 +15,24 @@ const GlobalStyle = createGlobalStyle`
     body {
         height: 100%;
         padding: 1.5rem 8rem;
+        background: ${(props) => props.theme.primaryColors.lightCream}
     }
     h1, 
     h2,
     h3, 
-    h4 {
+    h4, 
+    .alternate-title{
         font-family: 'Crimson Text', serif;
+        font-weight: 900;
     }
     h1 {
         font-size: 7.2rem;
         line-height: 7.2rem;
+    }
+    .alternate-title {
+        font-size: 17rem;
+        line-height: 7.2rem;
+        color: ${(props) => props.theme.primaryColors.grey}
     }
     h2 {
         font-size: 4rem;
