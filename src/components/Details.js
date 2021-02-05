@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MainButton } from '../styles/Buttons';
 
 const Details = () => {
   return (
@@ -43,12 +44,13 @@ const Details = () => {
           </p>
         </article>
       </section>
+      <MainButton buttonText="Create your plan" linkTo="/plan" />
     </StyledDetails>
   );
 };
 
 const StyledDetails = styled.section`
-  margin: 8rem auto 6.4rem;
+  margin: 8rem auto 20rem;
   width: 85%;
   h4 {
     color: ${(props) => props.theme.primaryColors.grey};
@@ -78,7 +80,7 @@ const StyledDetails = styled.section`
   }
   .details {
     margin-top: 8rem;
-    margin-bottom: 6.3rem;
+    margin-bottom: 6.4rem;
     width: 100%;
     display: flex;
     .detail-card {

@@ -13,8 +13,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
     body {
-        height: 100%;
-        padding: 1.5rem 8rem;
+        padding: 1.5rem 8rem 8.8rem;
         background: ${(props) => props.theme.primaryColors.lightCream}
     }
     h1, 
@@ -89,6 +88,9 @@ const GlobalStyle = createGlobalStyle`
         &:focus {
             outline: none;
         }
+    }
+    button {
+        cursor: pointer;
     }
 `;
 
